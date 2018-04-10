@@ -1,0 +1,170 @@
+h1{
+    font-size: 4em;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+p{
+    margin: 0;
+}
+
+/*navbar*/
+nav{
+    position: sticky;
+}
+.logoNav{
+    height:50px;
+}
+
+
+/*fixation navbar*/
+.navbar-fixed{
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+
+/*conteneur*/
+.container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*en tete*/
+#presentation{
+    height: 800px;
+    background-image: url("images/desktop.jpg");
+}
+div#presentation h1{
+    padding: 75px;
+}
+div#presentation{
+    text-align: center;
+}
+img.logo{
+    margin: 0 auto;
+}
+div#aPropos{
+    text-align: center;
+    margin: 20px auto;
+}
+
+/*qui suis-je*/
+.imgPresentation{
+    max-width: 350px;
+    border-radius: 350px;
+}
+div#aPropos{
+    padding-bottom: 50px;
+}
+
+/*conception*/
+div#conception{
+    background-image: url("images/computer-retro.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    height: 700px;
+}
+/*transition*/
+div#transition{
+    background-color: black;
+    color: lightgrey;
+    padding: 30px;
+}
+div#transition2{
+    background-color: black;
+    color: lightgrey;
+    padding: 30px;
+    text-align: right;
+}
+
+/*competences*/
+div.progress{
+    height: 40px;
+    margin: 15px auto;
+}
+div#competences{
+    padding-bottom: 50px;
+}
+/*Services*/
+#services{
+    text-align: center;
+}
+div#services{
+    background-image: url("images/type-writer.jpeg");
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    height: 600px;
+
+}
+
+/*Fonctionnalités web*/
+#fonctionalites{
+    text-align: right;
+    background-image: url("images/busy-desktop.jpeg");
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    height: 700px;
+}
+div#fonctionalites h2{
+    padding-right: 50px;
+}
+div#fonctionalites p{
+    margin: 10px auto;
+}
+.fonctionnalites{
+    text-align: center;
+    background-color: aliceblue;
+    margin: 30px 5px;
+    border-radius: 15px;
+    width: 75%;
+}
+.divVide{
+    visibility: hidden;
+}
+/*form*/
+input{
+    margin: 5px auto;
+}
+textarea{
+    margin: 5px auto;
+}
+button{
+    margin: 5px auto;
+}
+
+/*header*/
+#particles-js{
+    background-color: black;
+}div
+
+/*titres*/
+h1{
+    text-align: center;
+}
+p{
+    font-size: 1.3em;
+}
+
+
+/*contact*/
+#contact{
+    background-color: white;
+}
+
+/*footer*/
+footer{
+    color: darkgrey;
+    font-size: 0.7em;
+    text-align: center;
+}
+/*class float*/
+.floatLeft{
+    float: left;
+}
+.floatRight{
+    float: right;
+}
+.clear{
+    clear: both;
+}
